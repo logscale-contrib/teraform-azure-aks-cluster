@@ -32,7 +32,7 @@ resource "azurerm_role_assignment" "acrpull" {
 
 module "aks_cluster_name" {
   source  = "Azure/aks/azurerm"
-  version = "7.2.0"
+  version = "8.0.0"
 
   prefix               = var.prefix
   resource_group_name  = var.resource_group
